@@ -1,0 +1,149 @@
+h2 {
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #000000;
+    text-align: center;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+}
+.et_pb_row {
+    width: 50%;
+    max-width: 1080px;
+    margin: auto;
+    position: relative;
+}
+.et_pb_module {
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-duration: .2s;
+    animation-duration: .2s;
+}
+
+.image_1 {
+    background-image: url(Backgroundimage1.jpg);
+    background-size: 100%;
+    border-width: 1px;
+    border-color: #3503be;
+    height: 280px;
+    overflow-y: hidden;
+    margin-top: 4px!important;
+    margin-right: 4px!important;
+    margin-bottom: 4px!important;
+    margin-left: 5px!important;
+}
+
+.image_2 {
+    background-image: url(Backgroundimage2.jpg);
+    background-size: 100%;
+    border-width: 1px;
+    border-color: #eeeeee;
+    height: 280px;
+    overflow-y: hidden;
+    margin-top: 4px!important;
+    margin-right: 4px!important;
+    margin-bottom: 4px!important;
+    margin-left: 8px!important;
+    transition: height 300ms ease 0ms,padding 300ms ease 0ms,background-color 300ms ease 0ms,background-image 300ms ease 0ms;
+}
+.image_3 {
+    background-image: url(Backgroundimage3.jpg);
+    background-size: 100%;
+    border-width: 1px;
+    border-color: #eeeeee;
+    height: 280px;
+    overflow-y: hidden;
+    margin-top: 4px!important;
+    margin-right: 4px!important;
+    margin-bottom: 4px!important;
+    margin-left: 8px!important;
+    transition: height 300ms ease 0ms,padding 300ms ease 0ms,background-color 300ms ease 0ms,background-image 300ms ease 0ms;
+}
+.image_4 {
+    background-image: url(Backgroundimage4.jpg);
+    background-size: 100%;
+    border-width: 1px;
+    border-color: #eeeeee;
+    height: 280px;
+    overflow-y: hidden;
+    margin-top: 4px!important;
+    margin-right: 4px!important;
+    margin-bottom: 4px!important;
+    margin-left: 8px!important;
+    transition: height 300ms ease 0ms,padding 300ms ease 0ms,background-color 300ms ease 0ms,background-image 300ms ease 0ms;
+}
+.image_5{
+    background-image: url(Backgroundimage5.jpg);
+    background-size: 100%;
+    border-width: 1px;
+    border-color: #eeeeee;
+    height: 280px;
+    overflow-y: hidden;
+    margin-top: 4px!important;
+    margin-right: 4px!important;
+    margin-bottom: 4px!important;
+    margin-left: 8px!important;
+    transition: height 300ms ease 0ms,padding 300ms ease 0ms,background-color 300ms ease 0ms,background-image 300ms ease 0ms;
+}
+
+.image_6{
+        background-image: url(Backgroundimage6.jpg);
+        background-size: 100%;
+        border-width: 1px;
+        border-color: #eeeeee;
+        height: 280px;
+        overflow-y: hidden;
+        margin-top: 4px!important;
+        margin-right: 4px!important;
+        margin-bottom: 4px!important;
+        margin-left: 8px!important;
+        transition: height 300ms ease 0ms,padding 300ms ease 0ms,background-color 300ms ease 0ms,background-image 300ms ease 0ms;
+    }
+    .image_7{
+        background-image: url(Backgroundimage7.jpg);
+        background-size: 100%;
+        border-width: 1px;
+        border-color: #eeeeee;
+        height: 280px;
+        overflow-y: hidden;
+        margin-top: 4px!important;
+        margin-right: 4px!important;
+        margin-bottom: 4px!important;
+        margin-left: 8px!important;
+        transition: height 300ms ease 0ms,padding 300ms ease 0ms,background-color 300ms ease 0ms,background-image 300ms ease 0ms;
+    }
+    .image_8{
+        background-image: url(Backgroundimage8.jpg);
+        background-size: 100%;
+        border-width: 1px;
+        border-color: #eeeeee;
+        height: 280px;
+        overflow-y: hidden;
+        margin-top: 4px!important;
+        margin-right: 4px!important;
+        margin-bottom: 4px!important;
+        margin-left: 8px!important;
+        transition: height 300ms ease 0ms,padding 300ms ease 0ms,background-color 300ms ease 0ms,background-image 300ms ease 0ms;
+    }
+    .et_abc{
+            color: #ffffff;word-wrap: break-word;text-align: left;    display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+
+    }
+    .et_pb_section_11.et_pb_section {
+        padding-top: 50px;
+        padding-right: 0px;
+        padding-bottom: 50px;
+        padding-left: 0px;
+        background-color: #FFFFFF!important;
+    }
