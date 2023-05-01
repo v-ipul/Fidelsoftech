@@ -12,6 +12,7 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.ico"> 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <!-- Bootstrap CSS -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
@@ -126,11 +127,11 @@ h3 {
     padding-bottom: 50px;
     background-color: #d8dfecda!important
 }
-    .reveal{
+ .reveal{
   position: relative;
-  transform: translateY(150px);
+  transform: translateY(50px);
   opacity: 0;
-  transition: 2s all ease;
+  transition: 1s all ease;
 }
 
 .reveal.active{
@@ -262,6 +263,7 @@ jQuery(document).ready(function($){
 </head>
 
 <body>
+  <!----NAv start ---->
   <nav class="navbar navbar-expand-lg navbar-nav fixed-top navbar-light bg-light">
     <a href="https://www.fidelsoftech.com/"><span class="et_pb_image_wrap pl-5 pt-0"><img decoding="async" loading="lazy" width="200" height="62" src="Images/Fidel-Softech-logo-1.png" alt="Fidelsoftech logo"></span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -270,86 +272,86 @@ jQuery(document).ready(function($){
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll ml-auto" style="--bs-scroll-height: 100px;">
         <li class="nav-item dropdown active">
-          <a class="nav-link dropdown-toggle mr-3 dropbtn" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="font-weight: 450;font-size:16px">
+          <a class="nav-link dropdown-toggle mr-3 dropbtn" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="font-weight: 450;font-size:16px">
             LangTech
           </a>
           <div class="dropdown-menu bg-light">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Localization(L10)</a>
+            <a class="nav-link dropdown-toggle" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Localization(L10)</a>
             <div class="dropdown-menu">             
-            <a class="dropdown-item p-2 "  href="#">Translation Services</a>
-                             <a class="dropdown-item p-2 "  href="#">Languages</a>
-                             <a class="dropdown-item p-2 "  href="#">Other Services</a>
+            <a class="dropdown-item p-2 " onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="#">Translation Services</a>
+                             <a class="dropdown-item p-2 " onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="#">Languages</a>
+                             <a class="dropdown-item p-2 "onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"  href="#">Other Services</a>
           </div>
         </li>
         <li class="nav-item dropdown active">
-          <a class="nav-link dropdown-toggle mr-3 dropbtn" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="font-weight: 450;font-size:16px">
+          <a class="nav-link dropdown-toggle mr-3 dropbtn" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="font-weight: 450;font-size:16px">
             IT Servies
           </a>
-          <div class="dropdown-menu bg-light">
-            <a class="dropdown-item p-2"  href="">Product Dev Services</a>
-            <a class="dropdown-item p-2" href="">Legal AppIn Support</a>
-            <a class="dropdown-item p-2" href="">Infra and Cloud Support</a>
-            <a class="dropdown-item p-2" href="">Enterprise Solutions support</a>
-            <a class="dropdown-item p-2" href="">Digital Transformation</a>
-            <a class="dropdown-item p-2" href="">Eaas/Staffing</a>
-            <a class="dropdown-item p-2" href="">Dedicated Dev Team</a>
-            <a class="dropdown-item p-2" href="">Data Analytics/AI-Ml</a>
-            <a class="dropdown-item p-2" href="">Enterprise AppIn Support</a>
+          <div class="dropdown-menu bg-light"onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='##ffffff'">
+            <a class="dropdown-item p-2"onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"  href="">Product Dev Services</a>
+            <a class="dropdown-item p-2" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"href="">Legal AppIn Support</a>
+            <a class="dropdown-item p-2"onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="">Infra and Cloud Support</a>
+            <a class="dropdown-item p-2"onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="">Enterprise Solutions support</a>
+            <a class="dropdown-item p-2"onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="">Digital Transformation</a>
+            <a class="dropdown-item p-2" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"href="">Eaas/Staffing</a>
+            <a class="dropdown-item p-2"onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="">Dedicated Dev Team</a>
+            <a class="dropdown-item p-2" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"href="">Data Analytics/AI-Ml</a>
+            <a class="dropdown-item p-2"onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="">Enterprise AppIn Support</a>
           </div>
         </li>
         <li class="nav-item dropdown active">
-          <a class="nav-link dropdown-toggle mr-3 dropbtn" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="font-size:16px">
+          <a class="nav-link dropdown-toggle mr-3 dropbtn" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="font-size:16px">
             Consulting
           </a>
           <div class="dropdown-menu bg-light">
-            <a class="dropdown-item p-2" href="#">Bilingual Staffing and Consulting</a>
+            <a class="dropdown-item p-2"onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="#">Bilingual Staffing and Consulting</a>
           </div>
         </li>
         <li class="nav-item dropdown active">
-          <a class="nav-link dropdown-toggle mr-3 dropbtn" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="font-size:16px">
+          <a class="nav-link dropdown-toggle mr-3 dropbtn" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="font-size:16px">
             IT Solutions
           </a>
-          <div class="dropdown-menu bg-light">
-            <a class="dropdown-item p-2" href="#">ServiceNow</a>
-            <a class="dropdown-item p-2" href="#">New Technologies Lab</a>
-            <a class="dropdown-item p-2" href="#">Data Analytics Support</a>
-            <a class="dropdown-item p-2" href="#">Fintech Solutions</a>
+          <div class="dropdown-menu bg-light onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"">
+            <a class="dropdown-item p-2" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"href="#">ServiceNow</a>
+            <a class="dropdown-item p-2" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"href="#">New Technologies Lab</a>
+            <a class="dropdown-item p-2"onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="#">Data Analytics Support</a>
+            <a class="dropdown-item p-2" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"href="#">Fintech Solutions</a>
           </div>
         </li>
         <li class="nav-item dropdown active">
-          <a class="nav-link dropdown-toggle mr-3 dropbtn" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="font-size:16px">
+          <a class="nav-link dropdown-toggle mr-3 dropbtn" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="font-size:16px">
             About Us
           </a>
           <div class="dropdown-menu bg-light">
-            <a class="dropdown-item p-2" href="#">Current Jobs</a>
-            <a class="dropdown-item p-2" href="#">Careers</a>
-            <a class="dropdown-item p-2" href="#">Blogs</a>
-            <a class="dropdown-item p-2" href="#">News And Events</a>
-            <a class="dropdown-item p-2" href="#">Case Studies</a>
-            <a class="dropdown-item p-2" href="#">Certification &amp; Membership</a>
-            <a class="dropdown-item p-2" href="#">Capabilities</a>
-            <a class="dropdown-item p-2" href="#">Domain we serve</a>
+            <a class="dropdown-item p-2"onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="#">Current Jobs</a>
+            <a class="dropdown-item p-2" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"href="#">Careers</a>
+            <a class="dropdown-item p-2"onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="#">Blogs</a>
+            <a class="dropdown-item p-2" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"href="#">News And Events</a>
+            <a class="dropdown-item p-2" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"href="#">Case Studies</a>
+            <a class="dropdown-item p-2"onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="#">Certification &amp; Membership</a>
+            <a class="dropdown-item p-2" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"href="#">Capabilities</a>
+            <a class="dropdown-item p-2" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"href="#">Domain we serve</a>
           </div>
         </li>
         <li class="nav-item dropdown active">
-          <a class="nav-link dropdown-toggle mr-3" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="font-size:16px">
+          <a class="nav-link dropdown-toggle mr-3" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="font-size:16px">
            Investor
           </a>
           <div class="dropdown-menu bg-light">
-            <a class="dropdown-item p-2" href="#">Board of Director</a>
-        <a class="dropdown-item p-2" href="#">Investor Information</a>
-        <a class="dropdown-item p-2" href="#">Corporate Policies</a>
-        <a class="dropdown-item p-2" href="#">Advisors</a>
-        <a class="dropdown-item p-2" href="#">Financial Results</a>
-        <a class="dropdown-item p-2" href="#">Disclosures under Regulation 46 of the SEBI LODR</a>
-        <a class="dropdown-item p-2" href="#">FAQ (Frequently asked Questions)</a>
-        <a class="dropdown-item p-2" href="#">Fidel Softech Group Companies</a>
-        <a class="dropdown-item p-2" href="#">Shareholding Pattern</a>
-        <a class="dropdown-item p-2" href="#">Other Disclosures</a>
+            <a class="dropdown-item p-2"onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="#">Board of Director</a>
+        <a class="dropdown-item p-2" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"href="#">Investor Information</a>
+        <a class="dropdown-item p-2" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"href="#">Corporate Policies</a>
+        <a class="dropdown-item p-2"onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="#">Advisors</a>
+        <a class="dropdown-item p-2" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"href="#">Financial Results</a>
+        <a class="dropdown-item p-2" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"href="#">Disclosures under Regulation 46 of the SEBI LODR</a>
+        <a class="dropdown-item p-2" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"href="#">FAQ (Frequently asked Questions)</a>
+        <a class="dropdown-item p-2" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"href="#">Fidel Softech Group Companies</a>
+        <a class="dropdown-item p-2"onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="#">Shareholding Pattern</a>
+        <a class="dropdown-item p-2" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'"href="#">Other Disclosures</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" style="font-size:16px" href="#">Contact us</a>
+          <a class="nav-link active" aria-current="page" style="font-size:16px" onMouseOver="this.style.color='#2ea3f2'" onMouseOut="this.style.color='#000000'" href="#">Contact us</a>
         </li>
       </ul>
     </div>
@@ -397,7 +399,7 @@ jQuery(document).ready(function($){
 </button>
 </div>
 <!----section 1--->
-<div class="container-fluid">
+<div class="container-fluid reveal">
   <div class="row p-5 mt-4">
     <div class="col">
       <div class="et_pb_text_inner"style="text-align: center; float: left;">
@@ -418,48 +420,65 @@ jQuery(document).ready(function($){
 </div>
 <!----END-->
 <!-----WHAT WE DO ----->
-<div class="container-fluid" style="background-color: #f3f5f9">
-<div class="container">
-  <h2 style="padding:40px ;">What We Do…</h2>
-  <div class="row">
-    <div class="col">
-        <h3 class="et_pb_blurb_description">LangTech Services</h3>
-      <div class="et_pb_blurb_description"><h3>LangTech Services</h3>
-          <p>We provide LangTech services in 100+ languages. Software Localization, Website Localization, Game Localization, E-Learning Localization, Annotation, Translation and more. We handle Indian, Asian, European, African and RTL languages.</p>
-          <p ><a class="read" href="#langtech-services">Read More</a></p></div>
-    </div>
-    <div class="col-5">
-      <div class="et_pb_image_0 p-5"><span class="et_pb_image_wrap "><img decoding="async" width="300" height="300" src="https://www.fidelsoftech.com/wp-content/uploads/2023/04/Fidel-services.png" alt="Fidel Services" title="" srcset="https://www.fidelsoftech.com/wp-content/uploads/2023/04/Fidel-services.png 722w, https://www.fidelsoftech.com/wp-content/uploads/2023/04/Fidel-services-480x484.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 722px, 100vw" class="wp-image-4164"></span></div>
-      
-    </div>
-    <div class="col">
-      
-          <div class="et_pb_blurb_description"><h3>Technology (IT) Services</h3>
-              <p>Our IT services are divided into three broad areas, including IT infrastructure support, software development, and product development. Our experts ensure efficient IT solutions to help our clients achieve IT excellence.</p>
-              <p><a class="read" href="#it-services">Read More</a></p></div>
-    </div>
-  </div>
-  <div class="row">
+<div class="container-fluid reveal" style="background-color: #f3f5f9">
+  <div class="container animate__animated animate__flipInX" style="padding: 30px 70px 30px 70px">
+    <h2 style="padding:40px">What We Do…</h2>
+    <div class="row">
       <div class="col">
+          <div class="row">
+         
+        <div class="et_pb_blurb_description"><h3>LangTech Services</h3>
+            <p>We provide LangTech services in 100+ languages. Software Localization, Website Localization, Game Localization, E-Learning Localization, Annotation, Translation and more. We handle Indian, Asian, European, African and RTL languages.</p>
+            <p ><button class="readmore__toggle" role="switch" aria-checked="true">
+              Read More
+          </button></p></div>
+      </div>
+      <div class="row">
+        <div class="et_pb_blurb_description">
           <h3>Consulting Services</h3>
               <p>Fidel supports its client project deliveries through effective and timely staffing and manpower services. For this, Fidel has a unique bench and train model because of which Fidel can assure joining of the staff on the given day.</p>
-              <p><a class="read" href="#consulting-services">Read More</a></p>
+              <p><button class="readmore__toggle" role="switch" aria-checked="true">
+                Read More
+            </button></p>
       </div>
-      
+  </div>
+  </div>
       <div class="col-5">
-         
+        <div class="et_pb_image_0 p-5" ><span class="et_pb_image_wrap "><img decoding="async" width="316" height="316" src="https://www.fidelsoftech.com/wp-content/uploads/2023/04/Fidel-services.png" alt="Fidel Services" title="" srcset="https://www.fidelsoftech.com/wp-content/uploads/2023/04/Fidel-services.png 722w, https://www.fidelsoftech.com/wp-content/uploads/2023/04/Fidel-services-480x484.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 722px, 100vw" class="wp-image-4164"></span></div>
+        
       </div>
       <div class="col">
-          <div class="et_pb_blurb_description"><h3>IT Solution</h3>
-              <p>At Fidel, we provide a range of IT solutions customized to meet your exclusive business demands. Our IT solutions include FinTech, FIoTs, New Technologies Lab, ServiceNow, and Data Analytics.</p>
-              <p><a class="read" href="#it-solution">Read More</a></p></div>
+        <div class="row">
+          <div class="et_pb_blurb_description"><h3>Technology (IT) Services</h3>
+          <p>Our IT services are divided into three broad areas, including IT infrastructure support, software development, and product development. Our experts ensure efficient IT solutions to help our clients achieve IT excellence.</p>
+          <p><button class="readmore__toggle" role="switch" aria-checked="true">
+            Read More
+        </button></p>
       </div>
     </div>
+  
+  <div class="row">
+          <div class="et_pb_blurb_description"><h3>IT Solution</h3>
+              <p>At Fidel, we provide a range of IT solutions customized to meet your exclusive business demands. Our IT solutions include FinTech, FIoTs, New Technologies Lab, ServiceNow, and Data Analytics.</p>
+              <p><button class="readmore__toggle" role="switch" aria-checked="true">
+                Read More
+            </button></p>
+          </div>
+      </div>
+   
+      </div>
+     </div>
     </div>
 <!----LangTech Services----->
-  <div class="container-fluid p-4 bg-light">
-<div class="mx-auto p-3" style="width: 400px;"><h2>LangTech Services</h2> </div>
-  <div class="container">
+
+<div class="container-fluid bg-vip-left">
+<div class="container-fluid mx-auto p-1 reveal"><h2>LangTech Services</h2>
+
+</div>
+
+  <div class="container-fluid p-4 reveal">
+   
+     
       <div class="row">
         <div class="col">
           <div class="container">
@@ -493,22 +512,23 @@ jQuery(document).ready(function($){
             </div>
           </div>
         </div >
-        <div class="col col mr-4  p-3 m-4 text-left animate__animated animate__slideInRight">
+        <div class="col col mr-4  p-3 m-4 text-left animate__animated animate__slideInRight animate__slow">
 
           <img decoding="async" width="510" height="450" src="https://www.fidelsoftech.com/wp-content/uploads/2023/01/language-services-2.png" alt="Language Services" title="" srcset="https://www.fidelsoftech.com/wp-content/uploads/2023/01/language-services-2.png 510w, https://www.fidelsoftech.com/wp-content/uploads/2023/01/language-services-2-480x424.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 510px, 100vw" class="wp-image-418">
         </div>
       </div>
     </div>
-  </div>
 </div>
-</div>
+
 <!------------Technology (IT) Services--------->
 
 
-    <div class="container-fluid p-4 bg-light reveal">
-      <div class="mx-auto p-3 " style="width: 400px;"><h2>Technology (IT) Services</h2> </div>
+    <div class="container-fluid bg-vip-right">
+    <div class="container-fluid mx-auto p-3 reveal" >
+        <h2>Technology (IT) Services</h2> </div>
+        <div class="container-fluid p-4  reveal">
         <div class="row">
-          <div class="col col mr-4  p-3 m-4 text-left animate__animated animate__slideInLeft " >
+          <div class="col col mr-4  p-3 m-4 text-left animate__animated animate__slideInLeft animate__slow" >
             <img decoding="async" width="510" height="450" src="https://www.fidelsoftech.com/wp-content/uploads/2023/01/servicenow-service-2.png" alt="ServiceNow Services" title="" srcset="https://www.fidelsoftech.com/wp-content/uploads/2023/01/servicenow-service-2.png 510w, https://www.fidelsoftech.com/wp-content/uploads/2023/01/servicenow-service-2-480x424.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 510px, 100vw" class="wp-image-416 ">
         </div>
           <div class="col">
@@ -548,8 +568,11 @@ jQuery(document).ready(function($){
         </div>
       </div>
   <!------Consulting services------>
-  <div class="container-fluid p-4 bg-light reveal">
-  <div class="mx-auto p-3" style="width: 400px;"><h2>Consulting Services</h2> </div>
+ <div class="container-fluid bg-vip-left">
+  <div class="container-fluid reveal mx-auto p-3"><h2>Consulting Services</h2> </div>
+  
+  <div class="container-fluid p-4  reveal">
+  
   <div class="container">
     <div class="will-fadeIn">
       <div class="row">
@@ -588,14 +611,15 @@ jQuery(document).ready(function($){
         </div>
         </div>
       </div>
-  
+    </div>
   </div>
   </div>
   <!------------IT Solutions--------->
-
-
-<div class="container-fluid p-4  bg-light reveal.active">
-  <div class="mx-auto p-3 " style="width: 400px;"><h2>IT Solution</h2> </div>
+<div class="container-fluid bg-vip-right">
+  <div class="container-fluid mx-auto reveal p-3" ><h2>IT Solution</h2> </div>
+<div class="container-fluid p-4  reveal">
+ 
+  
     <div class="row">
       <div class="col col mr-4  p-3 m-4 text-left animate__animated animate__slideInLeft ">
         <img decoding="async" loading="lazy" width="510" height="450" src="https://www.fidelsoftech.com/wp-content/uploads/2023/01/it-solution-2.png" alt="IT Solution" title="" srcset="https://www.fidelsoftech.com/wp-content/uploads/2023/01/it-solution-2.png 510w, https://www.fidelsoftech.com/wp-content/uploads/2023/01/it-solution-2-480x424.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 510px, 100vw" class="wp-image-415">
@@ -635,70 +659,70 @@ jQuery(document).ready(function($){
       </div>
     </div>
   </div>
-
+</div>
 
   <!-----Domain we serve ----->
-  <div class="container-fluid text-white p-4 section_12 reveal">
+  <div class="container-fluid text-white p-4 section_12 reveal animated flipInX">
     <br>
   <h2>Domains we serve</h2><br><br>
-      <div class="row ml-5 mr-5">
-        <div class="col-sm ">
+      <div class="row p-3 ml-5 mr-5">
+        <div class="col-sm imagess">
           <img src="Images/Backgroundimage1.jpg" class="card-img" alt=" IT / ITES " width="400" height="300">
-         <div class="card-img-overlay">
-          <h3 style="text-align: left; color: #ffffff;">IT / ITES</h3>
-       <p  style="color: #ffffff;">At Fidel, we provide end-to-end LanTech / IT services. LangTech will help you to convert your IT solutions in multiple languages with ease. You can depend on our experts for smooth conversion.</p>
+         <div class="details">
+          <h3>IT / ITES</h3>
+       <p >At Fidel, we provide end-to-end LanTech / IT services. LangTech will help you to convert your IT solutions in multiple languages with ease. You can depend on our experts for smooth conversion.</p>
         </div>
         </div>
-        <div class="col-sm">
+        <div class="col-sm imagess">
           <img src="Images/Backgroundimage2.jpg" class="card-img" alt=" IT / ITES " width="400" height="300">
-          <div class="card-img-overlay">
-          <h3 style="text-align: left; color: #ffffff;">E-Commerce</h3>
-          <p><span style="color: #ffffff;">Ecommerce companies are rapidly expanding to semi-urban, rural, 2nd &amp; 3rd tier cities as the next wave of demand is coming from local consumers. User language for E-Comm will be real boost.</span></p>
+          <div class="details ">
+          <h3>E-Commerce</h3>
+          <p>Ecommerce companies are rapidly expanding to semi-urban, rural, 2nd &amp; 3rd tier cities as the next wave of demand is coming from local consumers. User language for E-Comm will be real boost.</span></p>
         </div>
         </div>
-        <div class="col-sm">
+        <div class="col-sm imagess">
           <img src="Images/Backgroundimage3.jpg" class="card-img" alt=" IT / ITES " width="400" height="300">
-          <div class="card-img-overlay">
-          <h3 style="text-align: left; color: #ffffff;">Technologys</span></h3>
+          <div class="details ">
+          <h3 style="text-align:center; color: #ffffff;">Technologys</span></h3>
           <p style="color: #ffffff ;">Technology has reached now to even remote areas, where people prefer local languages. To communicate with users who are not conversant with English, we will help to make it multilingual user friendly.</span></p>
         </div>
       </div>
       </div>
       <div class="row p-3 ml-5 mr-5">
-          <div class="col-sm">
+          <div class="col-sm imagess">
             <img src="Images/Backgroundimage4.jpg" class="card-img" alt=" IT / ITES " width="400" height="300">
-            <div class="card-img-overlay">
-            <h3 style="text-align: left; color: #ffffff;">Consumer Goods</h3>
+            <div class="details">
+            <h3 style="text-align:center ; color: #ffffff;">Consumer Goods</h3>
               <p style="color: #ffffff;">Today, when every consumer based company is looking forward to venturing across rural market and international frontiers, the need for LangTech became essential to communicate with your customers.</p>
           </div>
         </div>
-          <div class="col-sm">
+          <div class="col-sm imagess">
             <img src="Images/Backgroundimage5.jpg" class="card-img" alt=" IT / ITES " width="400" height="300">
-            <div class="card-img-overlay">
-            <h3 style="color: #ffffff;">Pharma & Healthcare</h3>
+            <div class="details">
+            <h3 style="text-align:center ;color: #ffffff;">Pharma & Healthcare</h3>
               <p style="color: #ffffff;">Pharmaceuticals and Online net medicine shops, healthcare systems, hospital management systems all deal with multiple geographies. Documentation and UI in local language is indispensable.</p>
           </div>
         </div>
-          <div class="col-sm">
+          <div class="col-sm imagess">
             <img src="Images/Backgroundimage6.jpg" class="card-img" alt=" IT / ITES " width="400" height="300">
-            <div class="card-img-overlay">
-            <h3 style="color: #ffffff;">Automobile </h3>
+            <div class="details">
+            <h3 style="text-align:center ;color: #ffffff;">Automobile </h3>
               <p style="color: #ffffff;">Automobile sector is one of the most upgrading sectors which keep innovations and users as top focus. Use LangTech to update customers about excellence of your products and services.</p>
           </div>
         </div>
         </div>
       <div class="row p-3 ml-5 mr-5">
-          <div class="col-sm">
+          <div class="col-sm imagess">
             <img src="Images/Backgroundimage7.jpg" class="card-img" alt=" IT / ITES " width="400" height="300">
-            <div class="card-img-overlay">
-            <h3 style="text-align: left; color: #ffffff;">Engineering</h3>
+            <div class="details">
+            <h3 style="text-align:center ; color: #ffffff;">Engineering</h3>
               <p style="color: #ffffff;">Engineering companies and industries deploy supply chain mgmt. systems, ERP, warehouse management systems using enterprise applications such as SAP, Oracle etc. Make systems multilingual so that all users can understand and access.</p>
           </div>
         </div>
-          <div class="col-sm ">
+          <div class="col-sm imagess">
             <img src="Images/Backgroundimage8.jpg" class="card-img" alt=" IT / ITES " width="400" height="300">
-            <div class="card-img-overlay">
-            <h3 style="color: #ffffff;">Fintech/Banking</h3>
+            <div class="details">
+            <h3 style="color: #ffffff;text-align:center ;">Fintech/Banking</h3>
               <p style="color: #fffafa;">Banking, Insurance, FinTech solutions are most demanding and require quick turnaround time, good software and tech support. We make the solutions multilingual for increasing client base and UX.</p>
           </div>
         </div>
@@ -712,60 +736,57 @@ jQuery(document).ready(function($){
     <h2>Our Clients</h2>
     <img src="Images\our-clients-logo.png" alt="Our_Clients" width="1080" height="100" class="mx-auto d-block" >
     </div>
-  <!------NEWS AND PR ------->
-  <div class="container-fluid pt-4 pb-4 ">
-    <div class="row">
-      <div class="col">
-        <h2 class="p-5"> News & PR.</h2>
-        <div class="container-fluid">
-            <div class="row ">
-              <div class="col ">
-                <div class="card" style="width: 18rem;">
-                    <img src="images/fidel-visit-to-padmavati-shedole-adarsh-prathmik-vidyalaya-home-page.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a href="https://www.fidelsoftech.com/news-and-blogs/fidels-visit-to-padmavati-shedole-adarsh-prathmik-vidyalaya-csr-activity">Fidel's Visit to Padmavati Shedole Adarsh Prathmik Vidyalaya<br></a>
-                    </div>
+    <!------NEWS AND PR ------->
+    <div class="container-fluid p-4 reveal" style="background-image:url(./Images/office.jpg)";>
+      <div class="row">
+        <div class="col">
+          <div class="row" ><h2 class="p-3 text-center" > News & PR.</h2></div>
+          <div class="row">
+            <div class="col ">
+              <div class="card" style="width: 15rem;">
+                  <img src="Images/fidel-visit-to-padmavati-shedole-adarsh-prathmik-vidyalaya-home-page.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <a href="https://www.fidelsoftech.com/news-and-blogs/fidels-visit-to-padmavati-shedole-adarsh-prathmik-vidyalaya-csr-activity">Fidel's Visit to Padmavati Shedole Adarsh Prathmik Vidyalaya<br></a>
                   </div>
-              </div>
-              <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="Images/csc-japan-visited-fidel-to-strengthen-cooperation-home-page.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a href="https://www.fidelsoftech.com/news-and-blogs/csc-japan-visited-fidel-to-strengthen-cooperation">CSC Japan visited Fidel to strengthen cooperation<br>
-                        </a>
-                    </div>
-                  </div>
-              </div>
+                </div>
             </div>
-        </div>
-      </div>
-      <div class="col">
-        <h2 class="p-5">Blogs & Resources.</h2>
-        <div class="container-fluid">
-            <div class="row">
-              <div class="col ">
-                <div class="card" style="width: 18rem;">
-                    <img src="Images/insights-on-the-annual-gala-2023-conference-home-page-1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a href="https://www.fidelsoftech.com/news-and-blogs/insights-on-the-annual-gala-2023-conference">Insights on the Annual GALA 2023 Conference</a>
-                    </div>
+            <div class="col">
+              <div class="card" style="width: 15rem;">
+                  <img src="Images/csc-japan-visited-fidel-to-strengthen-cooperation-home-page.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <a href="https://www.fidelsoftech.com/news-and-blogs/csc-japan-visited-fidel-to-strengthen-cooperation">CSC Japan visited Fidel to strengthen cooperation<br>
+                      </a>
                   </div>
-              </div>
-              <div class="col ">
-                <div class="card" style="width: 18rem;">
-                    <img src="Images/benefits-of-servicenow-for-it-service-desk-home-page.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a href="https://www.fidelsoftech.com/news-and-blogs/benefits-of-servicenow-for-it-service-desk">Benefits of ServiceNow for IT Service Desk</a>
-                    </div>
-                  </div>
-              </div>
+                </div>
             </div>
+          </div>
         </div>
+         <!------Blogs ------->
+        <div class="col">
+          <div class="row "><h2 class="p-3 text-center">Blogs & Resources.</h2></div>
+          <div class="row">
+            <div class="col ">
+              <div class="card" style="width: 15rem;">
+                <img src="Images/insights-on-the-annual-gala-2023-conference-home-page-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="https://www.fidelsoftech.com/news-and-blogs/insights-on-the-annual-gala-2023-conference">Insights on the Annual GALA 2023 Conference</a>
+                </div>
+              </div>
+              </div>
+              <div class="col"><div class="card" style="width: 15rem;">
+                <img src="Images/benefits-of-servicenow-for-it-service-desk-home-page.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="https://www.fidelsoftech.com/news-and-blogs/benefits-of-servicenow-for-it-service-desk">Benefits of ServiceNow for IT Service Desk</a>
+                  </div>
+                  </div>
+            </div>
+          </div>
+            </div>
+          </div>
       </div>
-    </div>
-</div>
+    </div>          
 <!-----FOOTER------>
-<div class="container-fluid" style="background-color: #103e66; color:#ffffff text-align=center">
+<div class="container-fluid " style="background-color: #103e66; color:#ffffff text-align=center">
   <div class="container p-5">
   <div class="row">
     <div class="col">
@@ -832,10 +853,28 @@ jQuery(document).ready(function($){
   </div>
 </div>
 </div>
-          <script> 
-            ScrollReveal().reveal('wp-image-4000');
-            ScrollReveal().reveal(' wp-image-416 ');
-            ScrollReveal().reveal(' section_12 ');</script>
+          
+             <script type="text/javascript">
+    window.addEventListener('scroll', reveal);
+
+    function reveal(){
+      var reveals = document.querySelectorAll('.reveal');
+
+      for(var i = 0; i < reveals.length; i++){
+
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 150;
+
+        if(revealtop < windowheight - revealpoint){
+          reveals[i].classList.add('active');
+        }
+        else{
+          reveals[i].classList.remove('active');
+        }
+      }
+    }
+    </script>
 
   <!-----ABOUT US------>
   <div class="container-fluid p-0 " style="background-color: #222222">
