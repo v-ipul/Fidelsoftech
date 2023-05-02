@@ -114,6 +114,7 @@ button.readmore__toggle {
 	transform: translateY(-40px);
 }
 .image22:hover img{
+  background-color: #687cbc;
 	opacity: 1;
 }
 .vipnav:hover {
