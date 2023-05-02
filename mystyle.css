@@ -84,6 +84,7 @@ button.readmore__toggle {
 	transition-property: transform;
 }
 .imagess .details p{
+  color: #ffffff;
 	margin: 30px 30px 0 30px;
 	font-size: 18px;
 	text-align: center;
@@ -95,6 +96,7 @@ button.readmore__toggle {
 	opacity: 0.7;
 }
 .imagess:hover .details h3{
+  color: #ffffff;
 	transform: translateY(-30px);
 }
 .imagess:hover .details p{
@@ -119,11 +121,11 @@ button.readmore__toggle {
 }
 .bg-vip-left{
   background: rgb(255,255,255);
-  background: linear-gradient(90deg,  rgba(255,255,255,0.3255427170868347) 0%, rgba(0,0,0,0.12386204481792717) 100%);
+  background: linear-gradient(90deg, rgba(255,255,255,0.13769257703081228) 0%, rgba(0,212,255,0.14329481792717091) 100%);
 }
 .bg-vip-right{
-  background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(0,0,0,0.12386204481792717) 0%, rgba(255,255,255,0.3255427170868347) 100%);
+  background: rgb(0,212,255);
+  background: linear-gradient(90deg, rgba(0,212,255,0.13769257703081228) 0%, rgba(255,255,255,1) 100%);
 }
   
   .fade-in:hover {
